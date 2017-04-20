@@ -26,9 +26,9 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/Hello-Bye/HBLineChart.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/Hello-Bye/HBLineChart.git", :tag => s.version }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "HBLineChart/TYChartView.h"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

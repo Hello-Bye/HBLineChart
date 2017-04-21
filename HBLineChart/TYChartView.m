@@ -7,6 +7,7 @@
 //
 
 #import "TYChartView.h"
+#import "UIView+TPAdditions.h"
 
 #define outdoorLineColor    HEXCOLOR(0xF6A623)
 #define indoorLineColor     HEXCOLOR(0x21B162)

@@ -1,6 +1,8 @@
 # HBLineChart
 一个用来画曲线图的view
 
+##PS:测试cocoapods的
+
 ##Use CocoaPods install
 ###首先你需要支持CocoaPods，（已经安装过的直接跳过）
 

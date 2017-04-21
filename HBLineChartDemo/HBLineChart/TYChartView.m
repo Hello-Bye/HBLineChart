@@ -9,8 +9,8 @@
 #import "TYChartView.h"
 #import "UIView+TPAdditions.h"
 
-#define outdoorLineColor    HEXCOLOR(0xF6A623)
-#define indoorLineColor     HEXCOLOR(0x21B162)
+#define outdoorLineColor    [UIColor greenColor]
+#define indoorLineColor     [UIColor redColor]
 
 @interface TYChartView () <PNChartDelegate>
 @property (nonatomic, strong) UIView *bgView;

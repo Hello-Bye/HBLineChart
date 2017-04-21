@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PNChart.h"
+#import "UIView+TPAdditions.h"
 
 @protocol TYChartViewDelegate <NSObject>
 @optional

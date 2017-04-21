@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Hello-Bye/HBLineChart.git", :tag => s.version }
 
-  s.source_files  = "HBLineChart/**/*"
-  s.exclude_files = "HBLineChart/UIView+TPAdditions.{h,m}"
+  s.source_files  = "HBLineChart/*"
+  # s.exclude_files = "HBLineChart/UIView+TPAdditions.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 

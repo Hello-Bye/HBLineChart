@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/Hello-Bye/HBLineChart"
 
-  # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = { "Chenzuliang" => "chenzuliang@geek-zoo.com" }
   # Or just: s.author    = "Chenzuliang"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.social_media_url   = "http://twitter.com/Chenzuliang"
 
   # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Hello-Bye/HBLineChart.git", :tag => s.version }
 
-  s.source_files  = "HBLineChart/HBLineChart"
+  s.source_files  = "HBLineChart/**/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

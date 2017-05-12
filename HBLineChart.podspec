@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HBLineChart"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "drawing line chart tool of HBLineChart."
 
   s.description  = "A drawing line chart tool of HBLineChart."
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Hello-Bye/HBLineChart.git", :tag => s.version }
 
-  s.source_files  = "HBLineChart/PNChart/*.{h,m}"
+  s.source_files = "HBLineChart/PNChart/*.{h,m}"
   # s.exclude_files = "HBLineChart/UIView+TPAdditions.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"

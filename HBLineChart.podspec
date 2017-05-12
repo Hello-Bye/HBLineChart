@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HBLineChart"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "drawing line chart tool of HBLineChart."
 
   s.description  = "A drawing line chart tool of HBLineChart."
